@@ -1,5 +1,3 @@
-import Deck
-from Deck import *
 from player import Player
 
 Player1 = Player("Player1")

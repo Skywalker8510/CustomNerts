@@ -1,5 +1,5 @@
-from Deck import Deck
-from NertsPile import NertsPile
+from src.Deck import Deck
+from src.NertsPile import NertsPile
 
 
 class Player:
