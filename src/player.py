@@ -8,4 +8,4 @@ class Player:
         self.player_name = name
         self.player_deck = Deck()
         self.points = 0
-        NertsPile.create_pile(self)
+        NertsPile.create(self)
