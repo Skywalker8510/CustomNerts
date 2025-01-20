@@ -5,8 +5,10 @@ Player2 = Player("Player2")
 
 
 print(f"{Player1.player_name}'s Nerts Pile:")
+i = 1
 for card in Player1.nerts_pile:
-    print(f"{card.get_identifier()} of {card.get_suit()}")
+    print(f"{i} {card.get_identifier()} of {card.get_suit()}")
+    i = i + 1
 
 print(f"\n{Player2.player_name}'s Nerts Pile:")
 for card in Player2.nerts_pile:
